@@ -27,6 +27,8 @@
                            :asset-path "js/compiled/out"
                            :output-to "resources/public/js/compiled/om_starter.js"
                            :output-dir "resources/public/js/compiled/out"
+                           :optimizations :none
+                           :source-map true
                            :source-map-timestamp true}}
                ;; This next build is an compressed minified build for
                ;; production. You can build this with:
